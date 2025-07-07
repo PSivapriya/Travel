@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = "."
+  node_version = "18"
+
+[[redirects]]
+  from = "/*"
+  status = 200
+  to = "/index.html"
+  force = true
